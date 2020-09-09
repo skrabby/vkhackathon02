@@ -60,7 +60,7 @@ public class ApiTests {
 
                         @Override
                         public void onError() {
-                            Assert.fail();
+                            Assert.fail("Invalid location category found.");
                         }
                     });
         }
