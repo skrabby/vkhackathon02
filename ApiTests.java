@@ -46,7 +46,6 @@ public class ApiTests {
                     new OnVisionApiListener() {
                         @Override
                         public void onSuccess(LatLng latLng) {
-                            Assert.fail();
                             LatLng targetLatLng = new LatLng();
                             targetLatLng.setLatitude(Double.valueOf(location.get(1)));
                             targetLatLng.setLongitude(Double.valueOf(location.get(2)));
